@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore CSV files
+*.csv
+
+.ipynb_checkpoints
+
+# Ignore Excel files (add multiple extensions for Excel files)
+*.xls
+*.xlsx
+
+# Ignore virtual environment files (corrected)
+.venv/*
+
+# Ignore Word files (corrected)
+*.doc
+*.docx
+
+# Ignore environment configuration files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+#ignore powerbi files
+*.pbix
